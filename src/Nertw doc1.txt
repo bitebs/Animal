@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <link rel="stylesheet" href="css/style.css"></link>
+</head>
+
+<body>
+    <div class="static">Static div #1</div>
+    <div class="static">Static div #2</div>
+    <div class="fixed">Fixed div #1</div>
+    <div class="absolute">Absoiute text #1</div>
+    <div class="relative">Relative text #1</div>
+    <div class="relative">Relative text #2</div>
+    <div class="sticky">Sticky text #1</div>
+    <p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+    <p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+    <p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+    <p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+    <p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+    <p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p><p>1</p>
+
+    <table>
+        <tr>
+            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+            <td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+div{
+        width: 30%;
+        height: 50px;
+        margin: 10px;
+        text-align: center;
+        line-height: 50px;
+        }
+
+        .static{
+            position: static;
+            background-color: coral;
+            left: 100px;
+        }
+
+
+        .fixed{
+            position: fixed;
+            background-color: rgb(73, 65, 62);
+            right: 0;
+            bottom: 0;
+            color:cornsilk
+            /*left: 100px;
+            top: 50px;
+            */
+        }
+
+
+        .absolute{
+            position: absolute;
+            background-color: rgb(73, 65, 62);
+            left: 0px;
+            bottom: 50px;
+            
+            
+        }
+
+
+        .relative{
+            position: relative;
+            background-color: rgb(73, 65, 62);
+            left: 50px;
+            top: 30px;
+            
+            
+        }
+
+        .sticky{
+            position: sticky;
+            background-color: rgb(53, 110, 51);
+            left: 10px;
+            top: 20px;
+            
+            
+        }
+
+        table{
+            width:200%;
+        }
+
+        td{
+            width: 30%;
+        }
